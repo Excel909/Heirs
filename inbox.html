@@ -4,11 +4,130 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="hok.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="hok.css"/>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <title>HOK</title>
 </head>
 <body>
-    
+    <div id="come-nav">
+        <ul>
+            <li> <a href="index.html"> <span class="med-ic"><i class="fa fa-home"></i></span>Home</a></li>
+            <li> <a href="inbox.html"> <span class="med-ic"><i class="fa fa-cloud"></i></span>Feedback</a></li>
+            <li> <a href="devotion.html"> <span class="med-ic"><i class="fa fa-book"></i></span>Devotion</a></li>
+            <li> <a href="#" target="_blank"> <span class="med-ic"><i class="fa fa-facebook-square"></i></span>facebook</a></li>
+            <li> <a href="vids.html"> <span class="med-ic"><i class="fa-solid fa-video"></i></span>Video</a></li>
+            <li> <a href="#"><span class="red"><i class="fa-solid fa-xmark"></i></span></a></li>
+        </ul>
+    </div>
+
+    <div id="container">
+        <div class="left">
+
+            <div class="limm">
+
+            </div>
+            <div class="logo">
+                HOK
+            </div>
+
+            <div class="links">
+                <ul>
+                    <li><a href="index.html" ><span class="icon"> <i class="fa fa-home"></i></span>home</a></li>
+                    <li><a href="vids.html"><span class="icon"> <i class="fa-solid fa-video"></i></span>videos</a></li>
+                    <li><a href="devotion.html"><span class="icon"> <i class="fa fa-book"></i></span>devotional</a></li>
+                    <li><a href="inbox.html" class="active"><span class="icon"> <i class="fa fa-cloud"></i></span>feedback</a></li>
+                    <li><a href="#"  target="_blank"> <span class="icon"> <i class="fa fa-facebook-square"></i></span>facebook</a></li>
+                </ul>
+            </div>
+
+            <!-- <div class="des">
+
+            </div> -->
+        </div>
+
+        <div class="right">
+
+            <div class="med-nav">
+                <div class="nav">
+                    <div class="loc">
+                        HOK
+                    </div>
+
+                    <div class="hamb">
+                        <a href="#come-nav">&#9776;</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="med-log">
+                <img src="media.png" class="med-pic">
+            </div>
+            
+            <div class="first">
+                    <div class="first-pic">
+                        <div class="first-text">
+                            HOK
+                        </div>
+                    </div>
+                    <div class="text">
+                        <div class="anime">
+                            <div class="float">
+                                <i class="fa fa-phone-square"></i>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+            
+
+            <div class="message">
+                <div class="mes-log">
+                    <span class="mes-icon"> <i class="fa fa-envelope-open"></i></span> contact us
+                </div>
+
+                <div class="mess-form">
+                    <form method="POST" action="mailto:danielbadejo679@gmail.com" enctype="text/plain" >
+                        <fieldset>
+                            <legend>Send us a message</legend>
+
+                            <label for="name"><b>Fullname</b><br>
+                                <!-- <i class="material-icons">person</i> -->
+                                 <input type="text" id="name" class="dp1" name="name" placeholder="fullname here" required>
+                            </label><p></p>
+
+                            <label for="email"><b>Email</b><br>
+                                <!-- <i class="material-icons">email</i> -->
+                                 <input type="email" id="email" class="dp1" name="name" placeholder="email here" required>
+                            </label><p></p>
+
+                            <label for="message">
+                                 <textarea class="messenger" name="message" id="message" placeholder="message here...." required> </textarea>
+                            </label><p></p>
+
+                            <button type="submit" class="submit">send</button>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+
+
+
+                
+           
+            <footer>
+                <div class="big">
+                    HOK
+                </div>
+
+                <div class="copyright">
+                    <span class="foot-icon"> <i class="fa fa-facebook-square"></i></span>&nbsp; @HOKmovies<p>
+                    <span class="foot-icon"> <i class="fa fa-youtube-square"></i></span>&nbsp; HOK<p>
+                    <span class="foot-icon"> <i class="fa fa-whatsapp"></i></span>&nbsp; @HOKmovies<p>
+                </div>
+            </footer>
+        </div>
+    </div>
 </body>
 </html>
